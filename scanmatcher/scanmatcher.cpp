@@ -560,6 +560,7 @@ void ScanMatcher::setLaserParameters
 	/*if (m_laserAngles)
 		delete [] m_laserAngles;
 	*/
+	std::cout<<"Our beams:"<<beams<<std::endl;
 	assert(beams<LASER_MAXBEAMS);
 	m_laserPose=lpose;
 	m_laserBeams=beams;
